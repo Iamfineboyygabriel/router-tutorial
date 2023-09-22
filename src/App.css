@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* styles.css */
+
+.nav {
+  background-color: #333; /* Background color for the navigation bar */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align the links */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav li {
+  display: inline;
+  margin: 0 10px; /* Add margin to separate links */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Text color for links */
+  font-weight: bold; /* Make links bold */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
 
-.App-link {
-  color: #61dafb;
+/* Optionally, you can add more styling for active links */
+.nav a.active {
+  background-color: #555; /* Background color for the active link */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 5px 10px; /* Add padding to active link */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* styles.css */
+a {
+  color: blue; /* Change link text color */
+  text-decoration: underline 0.3s; 
+  transition: 0.3s;/* Add underlines to links */
+  /* Add other link styles as needed */
 }
+
+/* Hover style for links */
+a:hover {
+  color: gold; /* Change link text color on hover */
+}
+
